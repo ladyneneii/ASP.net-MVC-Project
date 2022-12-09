@@ -12,5 +12,6 @@ namespace ConfessionBoard.Data
         }
         public DbSet<ConfessionBoard.Models.Confession> Confession { get; set; }
         public DbSet<ConfessionBoard.Models.Gift> Gift { get; set; }
+        public DbSet<ConfessionBoard.Models.Users> Users { get; set; }
     }
 }
